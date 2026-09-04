@@ -1,0 +1,14 @@
+# Entornos virtuales
+venv/
+env/
+
+# Base de datos SQLite
+*.db
+*.sqlite3
+
+# Variables de entorno y secretos (¡CRÍTICO para proteger tu API Key!)
+.env
+
+# Archivos temporales y caché de Python
+__pycache__/
+*.pyc
